@@ -87,13 +87,13 @@ Required Commands:
 * pip manage.py runserver
 
 -- In MySql Commandline client run following queries:
-CREATE DATABASE my_library;
-SHOW DATABASES;
-USE my_libray;
-SHOW TABLES;
-SELECT * FROM auth_user;
-INSERT INTO auth_user VALUES(1,'admin1234',null,true,"komal","Komal","Todkar","komal@gmail.com",true,true,"2022-04-09");
-SELECT * FROM book_book;
-INSERT INTO book_book VALUES(1,'Good Life Good Vibes','Vex King','Self-help book');
-INSERT INTO book_book VALUES(2,'Becoming','Michelle Obama','Biography');
-INSERT INTO book_book VALUES(3,'The Lost City','Amanda Hocking','Non-friction');
+1. CREATE DATABASE my_library;
+2. SHOW DATABASES;
+3. USE my_libray;
+4. SHOW TABLES;
+5. SELECT * FROM auth_user;
+6. INSERT INTO auth_user VALUES(1,'admin1234',null,true,"komal","Komal","Todkar","komal@gmail.com",true,true,"2022-04-09");
+7. SELECT * FROM book_book;
+8. INSERT INTO book_book VALUES(1,'Good Life Good Vibes','Vex King','Self-help book');
+9. INSERT INTO book_book VALUES(2,'Becoming','Michelle Obama','Biography');
+10. INSERT INTO book_book VALUES(3,'The Lost City','Amanda Hocking','Non-friction');
