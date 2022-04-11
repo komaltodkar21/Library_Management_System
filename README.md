@@ -1,7 +1,7 @@
 # Library_Management_System
 
 Create Virtual Environment in powershell:
-       * python -m venv env
+* python -m venv env
 
 In Command Prompt:
 .\env\Scripts\activate
