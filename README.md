@@ -8,7 +8,7 @@ In Command Prompt:
 .\env\Scripts\activate
 
 Required Installations:
-pip install django
+* pip install django
 
 Required Commands:
 django-admin startproject MyApi --> <to start new project>
@@ -21,10 +21,10 @@ django-admin startapp firstapp --> <to start new application>
 -- Create models.py and admin.py:
 
 Required Commands:
-pip manage.py makemigrations
-pip manage.py migrate
-pip manage.py createsuperuser
-pip manage.py runserver
+* pip manage.py makemigrations
+* pip manage.py migrate
+* pip manage.py createsuperuser
+* pip manage.py runserver
 
 
 Requirements for frontend:
