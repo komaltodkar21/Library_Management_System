@@ -19,14 +19,14 @@ from book import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('', include('book.urls')),
-    path('', views.home),
-    path('about/', views.about, name='about'),
-    path('dashboard/', views.dashboard, name='dashboard'),
-    path('logout/', views.user_logout, name='logout'),
-    path('signup/', views.user_signup, name='signup'),
-    path('login/', views.user_login, name='login'),
-    path('addbook/', views.add_book, name='addbook'),
-    path('updatebook/<int:id>/', views.update_book, name='updatebook'),
-    path('delete/<int:id>/', views.delete_book, name='deletebook')
+    path('', include('book.urls')),
+    # path('', views.home),
+    # path('about/', views.about, name='about'),
+    # path('dashboard/', views.dashboard, name='dashboard'),
+    # path('logout/', views.user_logout, name='logout'),
+    # path('signup/', views.user_signup, name='signup'),
+    # path('login/', views.user_login, name='login'),
+    # path('addbook/', views.add_book, name='addbook'),
+    # path('updatebook/<int:id>/', views.update_book, name='updatebook'),
+    # path('delete/<int:id>/', views.delete_book, name='deletebook')
 ]
