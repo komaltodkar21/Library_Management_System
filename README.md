@@ -86,7 +86,7 @@ Required Commands:
 * pip manage.py createsuperuser
 * pip manage.py runserver
 
--- In MySql Commandline client run following queries:
+## In MySql Commandline client run following queries:
 1. CREATE DATABASE my_library;
 2. SHOW DATABASES;
 3. USE my_libray;
