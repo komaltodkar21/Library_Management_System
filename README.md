@@ -87,9 +87,9 @@ Required Commands:
 * pip manage.py runserver
 
 -- In MySql Commandline client run following queries:
-1 CREATE DATABASE my_library;
-2 SHOW DATABASES;
-3 USE my_libray;
+CREATE DATABASE my_library;
+SHOW DATABASES;
+USE my_libray;
 SHOW TABLES;
 SELECT * FROM auth_user;
 INSERT INTO auth_user VALUES(1,'admin1234',null,true,"komal","Komal","Todkar","komal@gmail.com",true,true,"2022-04-09");
