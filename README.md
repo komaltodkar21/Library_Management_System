@@ -1,6 +1,5 @@
 # Library_Management_System
 
-
 Create Virtual Environment in powershell:
 python -m venv env
 
@@ -33,13 +32,13 @@ HTML, CSS, Bootstrap, Django Templating Language
 -- Create template files and static files
 -- Create views.py file and MyApi/urls.py:
 
-In order to see Library Management System using Django:
-R Command:
-pip manage.py runserver
+# In order to see Library Management System using Django:
+Required Command:
+* pip manage.py runserver
 
 
 Required Installations for Django Rest API Implementation:
-pip install djangorestframework
+* pip install djangorestframework
 
 -- In settings.py --INSTALLED_APPS include:
 'rest_framework'
@@ -59,7 +58,7 @@ REST_FRAMEWORK = {
     ]
 }
 
-In order to see Rest framework for Library Management System:
+# In order to see Rest framework for Library Management System:
 In MyApi/urls.py run these two urlpatterns and comment others-
 path('admin/', admin.site.urls),
 path('', include('book.urls')),
@@ -80,6 +79,12 @@ DATABASES = {
         'PORT': '3306'
     }
 }
+    
+Required Commands:
+* pip manage.py makemigrations
+* pip manage.py migrate
+* pip manage.py createsuperuser
+* pip manage.py runserver
 
 -- In MySql Commandline client run following queries:
 CREATE DATABASE my_library;
