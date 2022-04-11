@@ -4,15 +4,15 @@ Create Virtual Environment in powershell:
 * python -m venv env
 
 In Command Prompt:
-.\env\Scripts\activate
+* .\env\Scripts\activate
 
 Required Installations:
 * pip install django
 
 Required Commands:
-django-admin startproject MyApi --> <to start new project>
-cd MyApi
-django-admin startapp firstapp --> <to start new application>
+* django-admin startproject MyApi --> <to start new project>
+* cd MyApi
+* django-admin startapp firstapp --> <to start new application>
 
 -- In settings.py --INSTALLED_APPS include:
 'book'
@@ -66,7 +66,7 @@ path('', include('book.urls')),
 
 
 Required Installations to store data in MySql database:
-pip install mysqlclient
+* pip install mysqlclient
 
 -- In settings.py:
 DATABASES = {
